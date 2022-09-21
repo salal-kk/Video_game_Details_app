@@ -19,8 +19,8 @@ Widget notificationButton({void Function()? buttonAction}) {
 }
 
 Widget divider() {
-  return Divider(
-    color: Color(0xff7560E3),
+  return const Divider(
+    color:  Color(0xff7560E3),
     thickness: 0.6,
   );
 }

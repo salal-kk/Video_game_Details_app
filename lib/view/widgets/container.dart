@@ -15,7 +15,7 @@ Widget popularContainer({String? url, String? Gamename}) {
                     image: url!.isNotEmpty
                         ? NetworkImage("https:$url")
                         : const NetworkImage(
-                            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaxZbOu_IPchbKZkEpvQRblOeJ2JnFIigfZA&usqp=CAU"),
+                            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQh4u1077PsTGtQpyUyxRDE0DeFv4XkjPotroq7_-ed9X9pKPSvsFlarxciUJC9LIQs4Y&usqp=CAU"),
                     fit: BoxFit.fitWidth),
                 borderRadius: const BorderRadius.only(
                     topLeft: Radius.circular(12),
@@ -24,25 +24,25 @@ Widget popularContainer({String? url, String? Gamename}) {
             width: 352,
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 55.0),
+            padding: const EdgeInsets.only(top: 75.0),
             child: SizedBox(
               child: Image.asset(
                 "assets/images/left.png",
                 fit: BoxFit.fitHeight,
               ),
-              height: 50,
-              width: 50,
+              height: 23,
+              width: 23,
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 298.0, top: 55),
+            padding: const EdgeInsets.only(left: 330, top: 75),
             child: SizedBox(
               child: Image.asset(
                 "assets/images/right.png",
                 fit: BoxFit.fitHeight,
               ),
-              height: 50,
-              width: 50,
+              height: 23,
+              width: 23,
             ),
           )
         ]),
@@ -82,15 +82,15 @@ Widget popularContainer({String? url, String? Gamename}) {
 
 Widget tagssmallList({required String categoryname}) {
   List smtags = [
-    "PS-2",
+    "PlayStation-2",
     "X-Box",
-    "PS-3",
+    "PlayStation-3",
     "NVIDEIA",
     "Nintendo",
     "PC",
-    "PS-2",
+    "Playstation-2",
     "X-Box",
-    "PS-3",
+    "Playstation -3",
     "NVIDEIA",
     "Nintendo",
     "PC"
@@ -212,7 +212,7 @@ Widget textLabel({required String label}) {
 
 Widget commonContainer({String? url, String? Gamename}) {
   return Padding(
-    padding: const EdgeInsets.only(left: 25.0, top: 10),
+    padding: const EdgeInsets.only(left: 25.0, top: 15,bottom: 5),
     child: Column(
       // ignore: prefer_const_literals_to_create_immutables
       children: [
@@ -222,7 +222,7 @@ Widget commonContainer({String? url, String? Gamename}) {
                   image: url!.isNotEmpty
                       ? NetworkImage("https:$url")
                       : const NetworkImage(
-                          "https://bitsofco.de/content/images/2018/12/broken-1.png"),
+                          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQh4u1077PsTGtQpyUyxRDE0DeFv4XkjPotroq7_-ed9X9pKPSvsFlarxciUJC9LIQs4Y&usqp=CAU"),
                   fit: BoxFit.fitWidth),
               borderRadius: const BorderRadius.only(
                   topLeft: Radius.circular(12), topRight: Radius.circular(12))),

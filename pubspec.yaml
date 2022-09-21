@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   http: ^0.13.5
+  provider: ^6.0.3
 
 dev_dependencies:
   flutter_test:
@@ -74,6 +75,8 @@ flutter:
      - assets/images/discount.png
      - assets/images/left.png
      - assets/images/right.png
+     - assets/images/entypo_list.png
+     - assets/images/Group.png
      
 
   # An image asset can refer to one or more resolution-specific "variants", see
